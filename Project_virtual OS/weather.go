@@ -15,7 +15,7 @@ func showWeatherApp(w fyne.Window){
 	
 	//Api 
 
-	res , err := http.Get("https://api.openweathermap.org/data/2.5/weather?q=new york&units=metric&APPID=e0a98ac0c57b7e77678958a6376fabdc")
+	res , err := http.Get("https://api.openweathermap.org/data/2.5/weather?q=new york&units=metric&APPID=e0a98ac0c57b7e77678958a6376fabdc")//Use Your Own API
 	if err!= nil{
 
 		fmt.Println(err)
